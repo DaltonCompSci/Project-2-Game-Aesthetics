@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 74914419}
   - component: {fileID: 74914418}
   - component: {fileID: 74914420}
+  - component: {fileID: 74914421}
   m_Layer: 0
   m_Name: Campfire2
   m_TagString: Untagged
@@ -226,7 +227,23 @@ MonoBehaviour:
   playerIsClose: 0
   dialogue:
   - hh
-  - hh
+  - www
+--- !u!58 &74914421
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74914417}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1
 --- !u!1 &335107215
 GameObject:
   m_ObjectHideFlags: 0
