@@ -8,13 +8,9 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
 
-    
     public static GameManager Instance {get; private set;}
-
     public GameObject dialogBox;
     public TextMeshProUGUI dialogText;
-
-
     public GameObject canvas;
     public GameObject eventSystem;
 
@@ -36,6 +32,18 @@ public class GameManager : MonoBehaviour
             dialogText.text += c;
             yield return new WaitForSeconds(0.02f);
         }
+    }
+
+    void Awake() {
+        if (Instance == null) {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(canvas);
+            DontDestroyOnLoad(eventSystem);
+        } else {
+            Destroy(gameObject);
+        }
+
     }
 
 
