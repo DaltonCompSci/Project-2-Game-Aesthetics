@@ -44158,7 +44158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - Hello!
-  - Welcome To Parrot Something
+  - Welcome To Parrot Paradise
   - The Goal Is to collect crackers as you journey!
   - Good Luck and Have Fun!
   textComponent: {fileID: 1856606007}
@@ -52652,7 +52652,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 35
-      m_TileSpriteIndex: 35
+      m_TileSpriteIndex: 36
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -53527,10 +53527,10 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 1353821715, guid: c462941a42a275d418cf94b0dc5b21f1, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1869484441, guid: c462941a42a275d418cf94b0dc5b21f1, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 1869484441, guid: c462941a42a275d418cf94b0dc5b21f1, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -1584354661, guid: c462941a42a275d418cf94b0dc5b21f1, type: 3}
   - m_RefCount: 1
