@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Control : MonoBehaviour
 {
-
+    //reference video: https://www.youtube.com/watch?v=TVSLCZWYL_E 
     
     public void RestartGame(){
         //SceneManager.LoadScene(SceneManager.GetActiveScene().BuildIndex());
