@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI dialogText;
     public GameObject canvas;
     public GameObject eventSystem;
+    public GameObject button;
 
     //public GameObject mainScreen;
 
@@ -32,6 +33,7 @@ public class GameManager : MonoBehaviour
             dialogText.text += c;
             yield return new WaitForSeconds(0.02f);
         }
+        //DialogHide();
     }
 
     void Awake() {
@@ -46,7 +48,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-
+   
 
     // Start is called before the first frame update
     void Start()
