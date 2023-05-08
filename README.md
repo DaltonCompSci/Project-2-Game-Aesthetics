@@ -6,3 +6,4 @@ Font - https://assetstore.unity.com/packages/2d/fonts/hana-pixel-font-29725
 parrot - https://sr-studios-kerala.itch.io/2d-parrots
 tilemap - https://finalbossblues.itch.io/tf-jungle-tileset
 campfire - https://ladysachmet.itch.io/animated-campfire-36px
+music - https://freesound.org/people/Bertsz/sounds/671900/
